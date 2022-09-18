@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { Todo } from './toDo';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  todos : Todo[] - [];
-  newTodo : string;
-  i:number;
+ title = "Nuestra Lista Tareas";
+  // todos : Todo[];
+  // newTodo : string;
+  
 }
