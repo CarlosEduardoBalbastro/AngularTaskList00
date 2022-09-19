@@ -1,0 +1,8 @@
+.tarea {
+    cursor: pointer;
+}
+
+.tarea.reminder{
+    border-left: 5px solid green;
+}
+

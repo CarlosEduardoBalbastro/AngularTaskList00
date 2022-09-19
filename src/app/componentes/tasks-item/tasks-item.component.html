@@ -1,0 +1,24 @@
+<div class="container">
+    <table class="table table-striped">
+        
+        <tbody >
+          <tr >
+            <th class="tarea"
+            [ngClass]="{ reminder: task.reminder }"
+            >
+            {{task.id}}
+          </th>
+            <td
+            (click)="onToggle(task)"
+            
+            >{{task.text}}</td>
+             <!-- <p>{{task.day}} </p> -->
+            
+            <th (click)="onDelete(task)" style="color:red; font-weight: bold;" class="btn">x</th>
+            <!-- <td>@mdo</td> -->
+          </tr>
+       
+        </tbody>
+      </table>
+
+</div>

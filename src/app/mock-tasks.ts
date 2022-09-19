@@ -18,5 +18,11 @@
         text:"Realizar Tarea desafio  Cuatro",
         day:"Octubre 15 16hs",
         reminder:true
+    },
+    {
+        id:4,
+        text:"Terminar Tareas Pendientes Modulo 4",
+        day:"Octubre 30 16hs",
+        reminder:true
     }
  ]
