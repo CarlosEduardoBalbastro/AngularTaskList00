@@ -4,7 +4,7 @@
       "id": 1,
       "text": "Terminar Modulo Angular",
       "day": "Septiembre 28 20hs",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
@@ -13,10 +13,10 @@
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "Realizar Tarea desafio  Cuatro",
-      "day": "Octubre 15 16hs",
-      "reminder": false
+      "text": "Probar concluir practica",
+      "day": "hoy 2357hs",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
